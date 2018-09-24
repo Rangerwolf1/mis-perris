@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="64F0E25B-8D5F-206B-8847-DF3B4874F47F" name="VENTA">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 04:10:21 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="folio" id="9172E0B0-7CF1-4E8D-36A2-67A1457F9BFF">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 04:10:28 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificar_producto" id="7DF5C243-6790-9A42-38C4-11EDF5D3855A">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 04:10:28 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad" id="8CB6A145-B74B-5434-568A-C675D576BCE2">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 04:10:28 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="1366739C-07A6-6C91-C1BF-B9569129981C">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 04:11:31 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="empleado" id="26951A9C-BE34-E019-6C62-93A509713B3F">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 04:11:32 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_cliente1" id="A11E6790-9019-4351-EF23-349FEC36F9C4">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 21:43:02 UTC</createdTime>
+<generatorID>A8BDF0BF-6729-A95B-23A0-73396A22499F</generatorID>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<referedAttribute>F3B297B0-9C04-7360-190E-68618C958192</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4AC54080-C0A1-6F6A-75B1-53FCCB37C7AB" name="VENTA PK">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 04:10:54 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9172E0B0-7CF1-4E8D-36A2-67A1457F9BFF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

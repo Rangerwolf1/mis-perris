@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1FF6BE60-63FE-ECCD-0E52-665AEC4B3D78" name="EMPLEADO">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 02:47:31 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut" id="F1AA4FCB-DF52-05B1-4EC4-2390550BF358">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 02:52:46 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="DBC1FADD-B3EB-46BC-9E52-96DFA7F962B6">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 02:52:46 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="B9CC25D2-8AA3-EC30-E0BF-9C744492E17C">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 02:52:46 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="5C5AA9D6-4A8B-6C4A-B8A7-78FBF4787D75">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 02:52:46 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="51ECA529-EE74-5F4E-241C-9BD0D0F3DDF2">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 02:55:51 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Correo" id="639D33FA-9309-4B09-156F-9612A59ED097">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 02:55:51 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cargo_local" id="FEADAF1B-EBAB-F90A-ADED-EAA1E5F2A3C3">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 02:57:47 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sucursal" id="4F6ABDC6-9A40-8A02-3483-30A1131E240A">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 02:57:47 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sueldo_trabajador" id="09D0AC59-88DE-83E6-7A50-60812CF92975">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 02:58:21 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6C199EF0-72C2-8F1D-0FFC-BD89A0392BE0" name="EMPLEADOS PK">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 02:53:32 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F1AA4FCB-DF52-05B1-4EC4-2390550BF358</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

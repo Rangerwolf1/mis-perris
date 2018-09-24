@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28BEB04C-1620-0B88-77A5-EAE521D0A3FB" name="PANADERIA">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 22:15:03 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tipo_pan" id="A14F6DDD-5AF8-68B2-90C3-17C4FF423F5F">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 22:15:22 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ingredientes" id="80AD2C3B-7CA8-655B-6CAE-EE5BC555F389">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 22:15:22 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kilos" id="14523A4C-19DD-9B93-63D3-2026D5279CDC">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 22:15:22 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificador" id="BEBEEF80-CD09-5DE1-07D1-85BFD656FCE0">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 22:18:31 UTC</createdTime>
+<generatorID>4D23D823-BDF0-D163-8ACD-C4DDF64393B2</generatorID>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<referedAttribute>F99F4715-2241-28BD-4AE2-29492310538B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B63F6258-F9A7-94F0-40E7-34AE37C62829" name="PANADERIA PK">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 22:16:37 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A14F6DDD-5AF8-68B2-90C3-17C4FF423F5F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="examen base datos" id="597EFB23-5715-6438-EA25-B942AFEF7E57" version="3.5">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 02:24:16 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>597EFB23-5715-6438-EA25-B942AFEF7E57</designId>
+</OSDM_Design>

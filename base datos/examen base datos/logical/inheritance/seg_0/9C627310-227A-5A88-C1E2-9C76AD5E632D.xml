@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_4" directorySegmentName="seg_0" id="9C627310-227A-5A88-C1E2-9C76AD5E632D">
+<createdBy>vina</createdBy>
+<createdTime>2018-07-09 17:28:15 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>1FF6BE60-63FE-ECCD-0E52-665AEC4B3D78</sourceEntity>
+<targetEntity>3CA6E6B0-5395-4AB7-EAF5-414BC196BD9E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

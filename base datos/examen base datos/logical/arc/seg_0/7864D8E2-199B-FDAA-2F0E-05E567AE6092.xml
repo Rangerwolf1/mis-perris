@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="7864D8E2-199B-FDAA-2F0E-05E567AE6092" name="Arc_1">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 22:19:02 UTC</createdTime>
+<ownerDesignName>examen base de datos </ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<entity>9B2B2D2B-D8B5-6A1A-C94F-98632431AFA6</entity>
+<relations>
+<relationID>4D23D823-BDF0-D163-8ACD-C4DDF64393B2</relationID>
+<relationID>0A81224F-8CAC-62F7-1B0B-270E50AA1A3B</relationID>
+</relations>
+</Arc>

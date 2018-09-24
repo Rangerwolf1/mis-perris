@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_19" directorySegmentName="seg_0" id="45BB7F0C-AB53-CC50-D214-829C11B2072F">
+<createdBy>vina</createdBy>
+<createdTime>2018-07-09 17:29:52 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<sourcePk>FCB34F30-E248-2B25-D52E-3FCCE7602EB3</sourcePk>
+<targetPk>6C199EF0-72C2-8F1D-0FFC-BD89A0392BE0</targetPk>
+<identifying>false</identifying>
+<nameOnSource>tener</nameOnSource>
+<nameOnTarget>pertenece</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D9278F42-E7CA-69D5-C16D-C4115312B45A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7344CF39-4A07-8FC4-CE21-A4F6FFB1C3C9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

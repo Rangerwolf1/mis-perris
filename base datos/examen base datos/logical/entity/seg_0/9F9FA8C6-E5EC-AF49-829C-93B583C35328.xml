@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9F9FA8C6-E5EC-AF49-829C-93B583C35328" name="PASTELERIA">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 22:15:14 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tipo_pasteles1" id="15129EAD-5A6F-5FB0-040E-D473F8658508">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 22:17:03 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ingredientes" id="237B1068-8C65-04E3-ACF6-C47710CFBB2A">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 22:17:03 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad_pasteles" id="63D7302E-C072-E065-66EF-557FD011F901">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 22:17:16 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificador" id="44C597AB-99A3-871A-4A37-D91FE310134E">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 22:18:41 UTC</createdTime>
+<generatorID>0A81224F-8CAC-62F7-1B0B-270E50AA1A3B</generatorID>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<referedAttribute>F99F4715-2241-28BD-4AE2-29492310538B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B039479C-8BE9-B613-A08C-8B9E2F774BAE" name="PASTELERIA PK">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 22:17:10 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>15129EAD-5A6F-5FB0-040E-D473F8658508</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

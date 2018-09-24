@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D9278F42-E7CA-69D5-C16D-C4115312B45A" name="SUCURSAL">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 22:27:03 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="identificacion_sucursal" id="A81D7815-BF21-5EEB-5DBC-B24BCD79A157">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 22:27:19 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="85F64767-C0D8-C17B-A9E5-263F58D7F253">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 22:27:19 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comuna" id="AA0E39E2-766A-22CD-3032-8F854176A1E5">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 22:27:20 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contacto" id="F6B8E5C6-FAE0-892E-4820-F9A500A6F0B6">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 22:27:20 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="BF737D72-E7CE-78D2-B57D-5DEE23E5441D">
+<createdBy>vina</createdBy>
+<createdTime>2018-07-09 17:30:00 UTC</createdTime>
+<generatorID>45BB7F0C-AB53-CC50-D214-829C11B2072F</generatorID>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<referedAttribute>F1AA4FCB-DF52-05B1-4EC4-2390550BF358</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FCB34F30-E248-2B25-D52E-3FCCE7602EB3" name="SUCURSAL PK">
+<createdBy>Franco</createdBy>
+<createdTime>2018-07-05 22:27:43 UTC</createdTime>
+<ownerDesignName>examen base datos</ownerDesignName>
+<engineerTo>
+<item key="42F63688-CFD1-26B1-224B-BDF85E7DB5EA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A81D7815-BF21-5EEB-5DBC-B24BCD79A157</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
